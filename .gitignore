@@ -1,24 +1,52 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+
+# public files
+public/
 
 # testing
 /coverage
 
 # production
 /build
+/dist
 
-# misc
+# IDE and OS-specific files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.vscode/
+.idea/
 
+# environment files
+.env
+.env.*
 
+# sensitive files
+src/firebaseConfig.js
+api_key.json
+*.pem
+*.key
+
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+
+# temporary files
+tmp/
+cache/
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# machine learning
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.pkl
+*.onnx
+checkpoints/
