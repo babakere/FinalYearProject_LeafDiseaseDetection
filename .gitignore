@@ -46,7 +46,9 @@ cache/
 *.csv
 *.tsv
 *.xlsx
-*.h5
+
 *.pkl
 *.onnx
 checkpoints/
+
+
